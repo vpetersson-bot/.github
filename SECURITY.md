@@ -16,7 +16,7 @@ The sbomify team takes all security vulnerabilities seriously. Thank you for imp
 
 Please tell us which repository or service is affected, what you found, how to reproduce it, what you believe the impact is, and include any proof of concept you have. Timestamps in UTC help us line your report up against our own logs.
 
-That address is the one published in the `Contact` field of [`security.txt`](https://trust.sbomify.com/.well-known/security.txt). **To encrypt your report, use the OpenPGP key its `Encryption` field points to** — we deliberately do not repeat the key URL here, so that there is one place to change it.
+That address is the one published in the `Contact` field of [`security.txt`](https://trust.sbomify.com/.well-known/security.txt). **To encrypt your report, use the OpenPGP key its `Encryption` field points to.** We deliberately do not repeat the key URL here, so that there is one place to change it. If that record lists no key, email us and we will arrange one before you send anything sensitive.
 
 Please report vulnerabilities in third-party modules to the person or team maintaining the module.
 
@@ -24,7 +24,7 @@ Please report vulnerabilities in third-party modules to the person or team maint
 
 sbomify is a small team. We would rather describe how we actually work than publish a response clock we cannot hold to.
 
-- We acknowledge every report, and we tell you the outcome — including when we conclude that what you found is not a vulnerability.
+- We acknowledge every report, and we tell you the outcome, including when we conclude that what you found is not a vulnerability.
 - We triage on whether an issue is being exploited and whether it is reachable from the Internet, rather than on score alone. That judgement sets the remediation deadline under our internal vulnerability management policy, which we share with customers and assessors on request.
 - An actively exploited vulnerability is handled as a security incident rather than as a routine ticket, with the escalation that implies.
 - We will keep you informed of progress towards a fix and an advisory, and we may come back to you for more information or guidance.
